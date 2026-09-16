@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160" role="img" aria-label="Connect">
+  <defs>
+    <style>
+      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+      .ch { fill: #CBD5E1; font-size: 13.5px; }
+      .k { fill: #64748B; font-size: 13.5px; }
+    </style>
+  </defs>
+
+  <rect width="900" height="160" rx="14" fill="#0B1020"/>
+  <rect width="900" height="160" rx="14" fill="none" stroke="#2A3352"/>
+
+  <text x="40" y="40" class="mono" font-size="14" fill="#64748B">aman@dev:~$ ./connect --open-channels</text>
+
+  <g class="mono">
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/>
+      <circle cx="52" cy="72" r="4" fill="#22D3EE">
+        <animate attributeName="r" values="4;6;4" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="72" y="77" class="k">[ email    ]</text>
+      <text x="200" y="77" class="ch">amanohc1@gmail.com</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/>
+      <circle cx="52" cy="102" r="4" fill="#6366F1">
+        <animate attributeName="r" values="4;6;4" dur="2.2s" begin="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="72" y="107" class="k">[ linkedin ]</text>
+      <text x="200" y="107" class="ch">in/aman-kumar018</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1s" fill="freeze"/>
+      <circle cx="52" cy="132" r="4" fill="#818CF8">
+        <animate attributeName="r" values="4;6;4" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="72" y="137" class="k">[ github   ]</text>
+      <text x="200" y="137" class="ch">github.com/Aman001-vk</text>
+    </g>
+  </g>
+
+  <text x="560" y="107" class="mono" font-size="13.5" fill="#475569" opacity="0">
+    &gt; channels open. say hi.<animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.4s" fill="freeze"/>
+  </text>
+  <rect x="746" y="97" width="8" height="13" fill="#22D3EE" opacity="0">
+    <animate attributeName="opacity" values="0;1;0" dur="1.1s" begin="1.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
